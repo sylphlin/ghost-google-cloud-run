@@ -1,14 +1,11 @@
 {
     "name": "ghost-google-cloud-run",
     "env": {
-        "TITLE": {
-            "description": "title for your site"
-        },
         "APP_SECRET": {
             "generator": "secret"
         }
     },
     "options": {
-        "allow-unauthenticated": false
+        "allow-unauthenticated": true 
     }
 }
