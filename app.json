@@ -1,7 +1,7 @@
 {
     "name": "ghost-google-cloud-run",
     "env": {
-        ""database__client: {
+        "database__client": {
             "value": "mysql"
         },
         "database__connection__host": {
