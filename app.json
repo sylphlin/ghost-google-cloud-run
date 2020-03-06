@@ -1,8 +1,20 @@
 {
     "name": "ghost-google-cloud-run",
     "env": {
-        "APP_SECRET": {
-            "value": "secret"
+        ""database__client: {
+            "value": "mysql"
+        },
+        "database__connection__host": {
+            "value": "localhost"
+        },
+        "database__connection__db": {
+            "value": "ghost"
+        },
+        "database__connection__user": {
+            "value": "ghost"
+        },
+        "database__connection__password": {
+            "value": "ghost"
         }
     }
 }
