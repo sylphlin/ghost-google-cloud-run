@@ -2,7 +2,7 @@
     "name": "ghost-google-cloud-run",
     "env": {
         "APP_SECRET": {
-            "generator": "secret"
+            "value": "secret"
         }
     },
     "options": {
