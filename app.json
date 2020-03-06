@@ -4,8 +4,5 @@
         "APP_SECRET": {
             "value": "secret"
         }
-    },
-    "options": {
-        "allow-unauthenticated": true 
     }
 }
